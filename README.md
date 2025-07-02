@@ -6,9 +6,8 @@ Implementación en GNU Octave de métodos de interpolación y ajuste de curvas p
 
 | Problema | Descripción |
 |----------|-------------|
-| **`1_interpolacion_lineal.m`**  | Realiza interpolación lineal para estimar log(10) usando:
-<ul><li>a) log(8) y log(12)</li><li>b) log(9) y log(11)</li></ul>Calcula el error relativo porcentual para cada caso. |
-| **`2_interpolacion_lagrange.m`**  | Determine las raíces reales de f(x) = -1 + 5.5x - 4x^2 + 0.5x^3:<br><br><ul><li>a) en forma gráfica</li><li>b) con el método de Newton-Raphson dentro de εs = 0.01%</li></ul> |
+| **`1_interpolacion_lineal.m`**  | Realiza interpolación lineal para estimar `log(10)` usando: <br><br><ul><li>a) `log(8)` y `log(12)`</li><li>b) `log(9)` y `log(11)`</li></ul><br>Calcula el error relativo porcentual para cada caso. |
+| **`2_interpolacion_lagrange.m`**  | Calcula `log(10)` mediante interpolación de Lagrange de 3er orden usando:<br><br><ul><li>`log(8)`, `log(9)`, `log(11)`, `log(12)`</li></ul><br> Incluye cálculo de error relativo.|
 | **`3_minimos_cuadrados.m`**  | Ajusta una recta por mínimos cuadrados a un conjunto de 10 puntos y calcula el factor de correlación. |
 
 
@@ -37,21 +36,23 @@ Implementación en GNU Octave de métodos de interpolación y ajuste de curvas p
 #### `1_interpolacion_lineal.m`
 - Gráfica con puntos de datos y estimaciones.
 - Salida en consola.
-![image]1
+
+![image](https://github.com/user-attachments/assets/4c517647-7bd5-4bbc-910f-d8de2876383a)
 
 ---
 #### `2_interpolacion_lagrange.m`
 - Gráfica con curva de interpolación.
 - Salida en consola.
-![image]2
+
+![image](https://github.com/user-attachments/assets/4a6afa6b-9345-449d-b083-cd59a6a5d311)
 
 ---
 
 #### `3_minimos_cuadrados.m`
 - Gráfica de dispersión con recta de ajuste.
 - Salida en consola.
-![image]3
 
+![image](https://github.com/user-attachments/assets/9c9f1690-c0ca-4c7e-9be0-b634e2bb5a88)
 
 ---
 
